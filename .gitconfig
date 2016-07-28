@@ -1,0 +1,25 @@
+[user]
+	name = Edison Huff
+	email = bananas@uber.com
+[branch]
+	autosetuprebase = always
+[rerere]
+	enabled = true
+[url "ssh://gitolite@code.uber.internal/"]
+	insteadOf = git://code.uber.internal/
+[url "ssh://git@github.com/uber/"]
+	insteadOf = https://github.com/uber/
+[url "ssh://gitolite@code.uber.internal:2222/"]
+	insteadOf = https://code.uber.internal/
+[alias]
+	s = status
+	c = checkout
+	ch = checkout
+	v = branch
+	new = checkout
+	b = branch
+	l = log
+	st = status
+	a = add
+	r = rebase
+	p = pull
